@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\LitionGeek\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add aws-sdk
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;C:\Python39\Scripts\;C:\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Amazon\AWSCLI\bin\;C:\MinGW\bin;C:\Program Files\OpenJDK\openjdk-11.0.16_8\bin;C:\Program Files\nodejs\;C:\Ruby31-x64\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\LitionGeek\AppData\Local\Microsoft\WindowsApps;C:\Users\LitionGeek\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\LitionGeek\.dotnet\tools;C:\Program Files\heroku\bin;C:\Users\LitionGeek\AppData\Local\atom\bin;C:\Program Files\Azure Data Studio\bin;C:\MinGW\bin;C:\Users\LitionGeek\AppData\Local\Android\Sdk\platform-tools;C:\Users\LitionGeek\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\LitionGeek\AppData\Local\Yarn\Cache\v6\npm-aws-sdk-2.1218.0-51f225b11be9a9443ea30964346018a4ca49b750-integrity\node_modules\aws-sdk\.yarn-tarball.tgz'
+
+npm manifest: 
+  {
+    "name": "apits",
+    "version": "1.0.0",
+    "description": "Serverless aws-nodejs-typescript template",
+    "main": "serverless.ts",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "engines": {
+      "node": ">=14.15.0"
+    },
+    "dependencies": {
+      "@middy/core": "^2.5.3",
+      "@middy/http-json-body-parser": "^2.5.3"
+    },
+    "devDependencies": {
+      "@serverless/typescript": "^3.0.0",
+      "@types/aws-lambda": "^8.10.71",
+      "@types/node": "^14.14.25",
+      "esbuild": "^0.14.11",
+      "json-schema-to-ts": "^1.5.0",
+      "serverless": "^3.0.0",
+      "serverless-esbuild": "^1.23.3",
+      "ts-node": "^10.4.0",
+      "tsconfig-paths": "^3.9.0",
+      "typescript": "^4.1.3"
+    },
+    "author": "The serverless webpack authors (https://github.com/elastic-coders/serverless-webpack)",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
